@@ -231,3 +231,47 @@ td {
 td:empty {
     width: 50px;
   }
+
+/* Contact Form Styling */
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px dashed #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Doppio One
+  }
+  
+input[type=submit] {
+    background-color: rgb(252, 211, 134, 0.8);
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Doppio One;
+    font-size: 1rem;
+  }
+  
+input[type=submit]:hover {
+    background-color: rgb(252, 211, 134);
+  }
+
+label {
+    font-family: Doppio One;
+    color: black;
+  }
+
+textarea {
+    height: 100px;
+    resize: none;
+  }
+
+input:focus, textarea:focus {
+    outline-color: #ccc;
+    outline-width: 1px;
+  }
