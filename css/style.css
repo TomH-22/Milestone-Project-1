@@ -203,3 +203,31 @@
     border: 1px dashed #ccc;
     border-radius: 4px;
   }
+
+/* Opening Hours Table Styling */
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+  }
+
+tr {
+    line-height: 25px;
+  }
+
+th {
+    font-family: Doppio One;
+    font-size: 1rem;
+    text-align: right;
+  }
+
+td {
+    font-family: Doppio One;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+td:empty {
+    width: 50px;
+  }
