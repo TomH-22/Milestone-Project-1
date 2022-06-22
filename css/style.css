@@ -143,6 +143,20 @@
     margin-left: auto;
   }
 
+   /* 2 Col Section Wrapper containing the different "Cards" */
+
+   .sectionwrapper-b {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    width: auto;
+    max-width: 1280px;
+    text-align: center;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+  }
+   
 /* Card Styling */
 
 .maincard {
