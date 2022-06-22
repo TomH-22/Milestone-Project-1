@@ -48,6 +48,22 @@
       font-size: 1rem;
   }
 
+/* Splash Image */
+
+.splashimage {
+    width: 100%;
+    max-width: 1280px;
+    height: 380px;
+    background: no-repeat linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/images/BakeryOutside4.jpeg) right bottom;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 /* Promotional Text over Splash Image */
 
 .promotext {
