@@ -301,3 +301,75 @@ input:focus, textarea:focus {
       text-align: center !important;
       padding-top: 0px !important;
       }
+
+      /* Media Queries */
+
+  @media screen and (max-width: 800px) {
+   
+    /* 3 Col Section Wrapper containing the different "Cards" */
+
+.sectionwrapper-a {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  width: auto;
+  max-width: 1280px;
+  text-align: center;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* 2 Col Section Wrapper containing the different "Cards" */
+
+.sectionwrapper-b {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  width: auto;
+  max-width: 1280px;
+  text-align: center;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.maincard img {
+  width: 125px;
+  max-width: 100%;
+  filter: grayscale(35%);
+  opacity: 1;
+  border-radius: 50%;
+  
+}
+
+.promotext {
+  font-size: 250%;
+}
+
+.reservebutton {
+  font-size: 80%
+}
+
+.navbar {
+  background-color: white;
+  width: auto;
+  max-width: 1280px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  
+}
+
+.navbar span {
+  margin-left: 0px;
+  margin-right: 0px;
+  line-height: 35px;
+  display: block;
+  margin-top: 1px;
+  background-color: rgb(252, 211, 134);
+
+}
+
+  }
