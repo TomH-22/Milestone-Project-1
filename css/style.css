@@ -194,6 +194,11 @@
     
   }
 
+.icon {
+    text-align: center;
+    font-size: 1.3rem; 
+    }
+
 /* Additional Map Styling */
 
 .map {
