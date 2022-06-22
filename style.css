@@ -1,0 +1,18 @@
+/* Header Styling */
+
+.headerbox {
+    height: auto;
+    background-color: white;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+.mainlogo {
+    display: grid;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
