@@ -128,3 +128,54 @@
     margin-right: 30px;
     float: right;
 }
+
+/* 3 Col Section Wrapper containing the different "Cards" */
+
+.sectionwrapper-a {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: auto;
+    max-width: 1280px;
+    text-align: center;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+/* Card Styling */
+
+.maincard {
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: 2px 1px 5px rgb(225,225,225);
+    width: auto;
+    background-color: white;
+  }
+
+.maincard h2 {
+    font-family: Doppio One;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+.maincard p {
+    font-family: Spectral;
+    text-align: justify;
+    padding-top: 20px;
+  }
+
+.pcardtextcentered {
+  text-align: center !important;
+  padding-top: 5px !important;
+}
+
+.maincard img {
+    width: 200px;
+    max-width: 100%;
+    filter: grayscale(35%);
+    opacity: 1;
+    border-radius: 50%;
+    
+  }
