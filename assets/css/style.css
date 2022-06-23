@@ -41,7 +41,6 @@
     font-family: "Doppio One", sans-serif;
     text-decoration: none;
     font-size: 1rem;
-    font-display: swap;
 }
 
 .navbar a:hover {
@@ -49,7 +48,6 @@
     text-decoration: underline;
     font-family: "Doppio One", sans-serif;
     font-size: 1rem;
-    font-display: swap;
 }
 
 /* Splash Image */
@@ -78,7 +76,6 @@
     text-align: center;
     font-family: "Doppio One", sans-serif;
     display: flex;
-    font-display: swap;
     padding: 0px 20px;
 }
 
@@ -93,7 +90,6 @@
     padding: 5px 20px;
     border-radius: 5px;
     display: flex;
-    font-display: swap;
 }
 
 .reservebutton:hover {
@@ -119,7 +115,6 @@
     font-family: "Doppio One", sans-serif;
     line-height: 50px;
     display: inline;
-    font-display: swap;
 }
 
 .sectionname a {
@@ -180,14 +175,12 @@
     font-family: "Doppio One", sans-serif;
     text-align: center;
     font-size: 1.3rem;
-    font-display: swap;
   }
 
 .maincard p {
     font-family: Spectral, serif;
     text-align: justify;
     padding-top: 20px;
-    font-display: swap;
   }
 
 .pcardtextcentered {
@@ -235,14 +228,12 @@ th {
     font-family: "Doppio One", sans-serif;
     font-size: 1rem;
     text-align: right;
-    font-display: swap;
   }
 
 td {
     font-family: "Doppio One", sans-serif;
     font-size: 1rem;
     text-align: center;
-    font-display: swap;
   }
 
 td:empty {
@@ -261,7 +252,6 @@ input[type=text], input[type=email], textarea {
     margin-bottom: 16px;
     resize: vertical;
     font-family: "Doppio One", sans-serif;
-    font-display: swap;
   }
   
 input[type=submit] {
@@ -273,7 +263,6 @@ input[type=submit] {
     cursor: pointer;
     font-family: "Doppio One", sans-serif;
     font-size: 1rem;
-    font-display: swap;
   }
   
 input[type=submit]:hover {
@@ -283,7 +272,6 @@ input[type=submit]:hover {
 label {
     font-family: "Doppio One", sans-serif;
     color: black;
-    font-display: swap;
   }
 
 textarea {
@@ -320,7 +308,6 @@ padding-top: 0px !important;
   color: black;
   text-align: center !important;
   padding-top: 0px !important;
-  font-display: swap;
   }
 
 .footer {
@@ -328,7 +315,6 @@ padding-top: 0px !important;
   font-size: 1rem;
   line-height: 50px;
   display: inline;
-  font-display: swap;
   color: black;
 }
 
