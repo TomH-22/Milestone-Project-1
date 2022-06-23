@@ -91,3 +91,23 @@ I added a media query feature which alters the layout of the page once the `vw` 
 All links were checked and worked as expected. All external links opened in a new tab. 
 ### **Contact Form**
 The contact form was checked and worked as expected. The field validation worked also.
+
+## **Technologies and Resources Used**
+
+- **Fontawesome** I used this to display icons on the site.
+- **Google Fonts** I used Google Fonts to source and load the fonts used within the page. 
+- **Am I Responsive** I used this site to test how the page would render on devices with different screen sizes. I also used it to generate a nice image for the Read Me file.
+- **W3C Validation Tools** I used the Mark Up- and CSS Validation tools to test the site's code prior to deployment. 
+- **W3 Schools** This website was very useful to me in terms of explaining HTML and CSS related concepts and best practice implementation. 
+- **Stack Overflow** This provided a great resource in terms of troubleshooting code and learning to code more effectively.
+- **Chrome Developer Tools** This was an invaluable tool during the development process in many ways, from 'Inspecting' elements and associated attributes to pre-deployment testing using the Lighthouse feature. 
+- **Procreate** An iPad app I used to create the site's logo.
+- **Pexels** A site providing free stock images, which I used within my page.
+- **Google Maps API** I used this to diplay a location map on the site. 
+- **Convertio** I used this to convert images to a suitable format, `.webp` in this case. 
+- **Befunky** I used this site to edit images on the fly: resizing, cropping and colour profile edits.
+- **Freepik** I obtained the illustration that makes up part of the main logo from this site. 
+
+## **Known Bugs and Issues**
+
+
