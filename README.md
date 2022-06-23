@@ -33,10 +33,16 @@ The target audience is made up of both locals and visitors to the area who would
 
 ### **Color Scheme**
 The colour scheme was kept very simple and clean, with a lot of white `(#FFFFFF)`, a shade of orange `(#FCD386)` as well as a light grey `(#F5F5F5)`. Additionally, for e.g. hover effects, the `opacity` attribute was used to style elements. The main text is rendered as black on white. Overall, the site provides good contrast and viewing experience.
+
+![Colour Palette](assets/readme/colours.png)
+
 ### **Layout**
 The layout was kept clean and free of clutter, using a one-page design: main sections are seperated by a header bar and sub-sections are kept visually seperated using a grid-based card design.
 ### **Fonts**
 The main fonts used were provided by Google Fonts, and are named `Doppio One` and `Spectral`. The former was used in the main logo and for the headers while the `Spectral` font was used for the text content. I felt these complemented each other very well and made it easy to distinguish heading- and body text. Back-up fonts of `sans-serif` and `serif` were used respectively, in line with the type of preferred font. 
+
+![Doppio One Font](assets/readme/doppioone.png) ![Spectral Font](assets/readme/spectral.png)
+
 ### **Images**
 Images used were procured from `Pexels.com` and were resized according to requirements. They were also converted to `.webp` format in an effort to ensure quality, size and loading performance. Colour tone was adjusted to preference using a mixture of `opacity` attributes and gradient overlays. Images were rounded using the `border-radius` attribute, which worked very well. Lastly, a favicon was added to the page: this was constructed from part of the logo design elements and re-sized accordingly.
 ### **Logo**
