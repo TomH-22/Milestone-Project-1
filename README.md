@@ -123,7 +123,6 @@ The contact form was checked and worked as expected. The field validation worked
 ## **Known Bugs and Issues**
 
 - **Arrow Icon Link** The arrow icon link which, when clicked, brings the user back to the top of the page is currently aligned or styled in such a manner that it off-sets the text content of the section header a number of pixels to the left, causing it to be centrally aligned no longer. It does not impair functionality and would probably go unnoticed by most, but I would like to see it fixed. 
-<br>
 
 - **Layout Features with `<br>` Element** I have used a very small number of these elements to adjust spacing within the page which is not a valid use for this element. A fix would involve using either `padding` or `margin` attributes to achieve the desired spacing. 
 
@@ -134,5 +133,19 @@ And lastly,
 - **Page Performance and Images** While I already optimised all of the images in terms of size and file type, I note that the images, while being sized down appropriately as part of the media query feature on smaller screens, are still of a large intrinsic dimension and file size to make them render well on large screens. I could have uploaded images of reduced dimensions and file size to render as part of the media query and thus improved loading times and general performance on smaller screen devices.
 
 ## **Attributions**
+- `bakery.webp`: original image by Daria Shevsova on [Pexels](https://www.pexels.com/photo/two-black-bicycles-beside-gray-frame-glass-window-880467/)
+
+- `bread.webp`: original image by Kira Schwarz on [Pexels](https://www.pexels.com/photo/close-up-shot-of-sourdough-bread-in-a-tray-10200851/)
+
+- `coffee.webp`: original image by Anna Tarazevich on [Pexels](https://www.pexels.com/photo/a-person-holding-stainless-mug-while-steaming-milk-4927154/)
+
+- `pastries.webp`: original image by Shameel Mukkath on [Pexels](https://www.pexels.com/photo/breads-on-wooden-tray-5112517/)
+
+- `logo.webp` and `favicon.webp`: original image by 'pikisuperstar' on [Freepik](https://www.freepik.com/free-vector/homemade-bakery-background_4335366.htm)
+
+## **Thank You**
+- First and foremost, thank you very much to my better half Danielle for all the support and encouragement!
+- Thank you to my fellow students for keeping the Slack Channel going and providing solutions to problems before I even encounter them. 
+- Thank you to my mentor, Daisy McGirr, whom I regrettably underutilised during this project: look forward to picking your brain on the upcoming ones. 🖖🏼 
 
 
