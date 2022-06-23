@@ -33,14 +33,14 @@ The target audience is made up of both locals and visitors to the area who would
 
 ### **Color Scheme**
 The colour scheme was kept very simple and clean, with a lot of white `(#FFFFFF)`, a shade of orange `(#FCD386)` as well as a light grey `(#F5F5F5)`. Additionally, for e.g. hover effects, the `opacity` attribute was used to style elements. The main text is rendered as black on white. Overall, the site provides good contrast and viewing experience.
-
+<br><br>
 ![Colour Palette](assets/readme/colours.png)
 
 ### **Layout**
 The layout was kept clean and free of clutter, using a one-page design: main sections are seperated by a header bar and sub-sections are kept visually seperated using a grid-based card design.
 ### **Fonts**
 The main fonts used were provided by Google Fonts, and are named `Doppio One` and `Spectral`. The former was used in the main logo and for the headers while the `Spectral` font was used for the text content. I felt these complemented each other very well and made it easy to distinguish heading- and body text. Back-up fonts of `sans-serif` and `serif` were used respectively, in line with the type of preferred font. 
-
+<br><br>
 ![Doppio One Font](assets/readme/doppioone.png) ![Spectral Font](assets/readme/spectral.png)
 
 ### **Images**
@@ -180,7 +180,7 @@ And lastly,
 - `logo.webp` and `favicon.webp`: original image by 'pikisuperstar' on [Freepik](https://www.freepik.com/free-vector/homemade-bakery-background_4335366.htm)
 
 ## **Thank You**
-- First and foremost, thank you very much to my better half Danielle ❤️ for all the support and encouragement!
+- First and foremost, thank you very much to my better half Danielle for all the support and encouragement!
 - Thank you to my fellow students for keeping the Slack Channel going and providing solutions to problems before I even encounter them. 
 - Thank you to my mentor, Daisy McGirr, whom I regrettably underutilised during this project: look forward to picking your brain on the upcoming ones. 🖖🏼 
 
