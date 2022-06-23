@@ -180,7 +180,7 @@ And lastly,
 - `logo.webp` and `favicon.webp`: original image by 'pikisuperstar' on [Freepik](https://www.freepik.com/free-vector/homemade-bakery-background_4335366.htm)
 
 ## **Thank You**
-- First and foremost, thank you very much to my better half Danielle for all the support and encouragement!
+- First and foremost, thank you very much to my better half Danielle ❤️ for all the support and encouragement!
 - Thank you to my fellow students for keeping the Slack Channel going and providing solutions to problems before I even encounter them. 
 - Thank you to my mentor, Daisy McGirr, whom I regrettably underutilised during this project: look forward to picking your brain on the upcoming ones. 🖖🏼 
 
