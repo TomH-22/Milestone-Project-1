@@ -69,6 +69,25 @@ I added social media links to the 'contact' section of the page: I made use of F
 ### **Footer**
 The footer contains some copyright info and a short funny message. It is styled similarly to the section headers but a seperate class to style the text content. 
 ### **Arrow Icon**
-Every section header, as well as the footer, incorporates a small arrow icon which, when clicked, will bring the user back to the top of the page. On hover, a 'Back to Top!' message is displayed. 
+Every section header, as well as the footer, incorporates a small arrow icon which, when clicked, will bring the user back to the top of the page. On hover, a 'Back to Top!' message is displayed.
 
+## **Testing, Validation and Compatibility**
 
+### **HTML Validation**
+The HTML code was assessed using the W3C Mark-Up Validator Tool. While I did encounter some syntax errors, all were fixed prior to deployment. 
+### **CSS Validation**
+The HTML code was assessed using the W3C CSS Validator Tool. Again, while I did encounter some syntax errors, all were fixed prior to deployment. 
+### **Lighthouse Testing**
+Assessing the site based on performance, accessibility, best practices and SEO using Chrome Developer Tools' Lighthouse test highlighted a number of issues which prompted me to make a number of changes prior to deployment:
+- I addressed accessibility issues by adding relevant attributes to some elements, i.e. `aria-label`, `title`, `alt` text and such. 
+- I addressed performance issues by reducing image file sizes and re-uploading them in a `.webp` format. Additionally, I added fall-back fonts and added additional code to improve initial page load speed. 
+- I addressed a few other minor issues as recommended by the report to bring the overall score up into the green area. 
+A number of issues highlighted were as a result of third-party code, such as the Google Maps API, Google Fonts and the Fontawesome script but I did not address these.  
+### **Cross-browser Checks and Device Testing**
+I tested the site on a variety of browsers: Edge, Opera, Safari, Firefox and Chrome. All rendered the site as expected. I also tested the site on Chrome and Safari within iOS - this presented no problems. 
+
+I added a media query feature which alters the layout of the page once the `vw` become less than `800px` to a format more suitable for mobile devices. These design changes work well up to a `vw` of `315px` at which point the layout becomes constrained. I could have added more styles as part of a further media query but decided against it as even a small mobile device offers a screen width of at least 320px nowadays. 
+### **Links**
+All links were checked and worked as expected. All external links opened in a new tab. 
+### **Contact Form**
+The contact form was checked and worked as expected. The field validation worked also.
