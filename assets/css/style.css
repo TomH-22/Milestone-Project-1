@@ -314,13 +314,22 @@ padding-top: 0px !important;
 /* Address & Telephone Number Paragraph Styling */
 
 .pcontact {
-  font-family: "Doppio One", sans-serif !important;
+  font-family: Spectral, sans-serif !important;
   font-size: 1rem;
   color: black;
   text-align: center !important;
   padding-top: 0px !important;
   font-display: swap;
   }
+
+.footer {
+  font-family: Spectral, serif;
+  font-size: 1rem;
+  line-height: 50px;
+  display: inline;
+  font-display: swap;
+  color: black;
+}
 
   /* Media Queries */
 
