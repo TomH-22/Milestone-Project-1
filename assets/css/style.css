@@ -79,6 +79,7 @@
     font-family: "Doppio One", sans-serif;
     display: flex;
     font-display: swap;
+    padding: 0px 20px;
 }
 
 /* Reserve Button - Link to Contact Section */
