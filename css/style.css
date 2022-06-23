@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Doppio+One%7cSpectral");
+
 /* Header Styling */
 
 .headerbox {
@@ -36,16 +38,18 @@
 
 .navbar a {
     color: black;
-    font-family: "Doppio One";
+    font-family: "Doppio One", sans-serif;
     text-decoration: none;
     font-size: 1rem;
+    font-display: swap;
 }
 
 .navbar a:hover {
     color: black;
     text-decoration: underline;
-    font-family: "Doppio One";
+    font-family: "Doppio One", sans-serif;
     font-size: 1rem;
+    font-display: swap;
 }
 
 /* Splash Image */
@@ -54,7 +58,7 @@
     width: 100%;
     max-width: 1280px;
     height: 380px;
-    background: no-repeat linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/images/BakeryOutside4.jpeg) right bottom;
+    background: no-repeat linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/images/BakeryOutside4.webp) right bottom;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
@@ -72,8 +76,9 @@
     width: auto;
     color:rgb(255,255,255,1);
     text-align: center;
-    font-family: "Doppio One";
+    font-family: "Doppio One", sans-serif;
     display: flex;
+    font-display: swap;
 }
 
 /* Reserve Button - Link to Contact Section */
@@ -82,11 +87,12 @@
     color: black;
     font-size: 1rem;
     background-color: rgb(255,255,255);
-    font-family: "Doppio One";
+    font-family: "Doppio One", sans-serif;
     text-decoration: none;
     padding: 5px 20px;
     border-radius: 5px;
     display: flex;
+    font-display: swap;
 }
 
 .reservebutton:hover {
@@ -109,9 +115,10 @@
 .sectionname h2 {
     color: black;
     font-size: 1rem;
-    font-family: "Doppio One";
+    font-family: "Doppio One", sans-serif;
     line-height: 50px;
     display: inline;
+    font-display: swap;
 }
 
 .sectionname a {
@@ -169,15 +176,17 @@
   }
 
 .maincard h2 {
-    font-family: "Doppio One";
+    font-family: "Doppio One", sans-serif;
     text-align: center;
     font-size: 1.3rem;
+    font-display: swap;
   }
 
 .maincard p {
-    font-family: Spectral;
+    font-family: Spectral, serif;
     text-align: justify;
     padding-top: 20px;
+    font-display: swap;
   }
 
 .pcardtextcentered {
@@ -222,15 +231,17 @@ tr {
   }
 
 th {
-    font-family: "Doppio One";
+    font-family: "Doppio One", sans-serif;
     font-size: 1rem;
     text-align: right;
+    font-display: swap;
   }
 
 td {
-    font-family: "Doppio One";
+    font-family: "Doppio One", sans-serif;
     font-size: 1rem;
     text-align: center;
+    font-display: swap;
   }
 
 td:empty {
@@ -248,7 +259,8 @@ input[type=text], input[type=email], textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    font-family: "Doppio One";
+    font-family: "Doppio One", sans-serif;
+    font-display: swap;
   }
   
 input[type=submit] {
@@ -258,8 +270,9 @@ input[type=submit] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-family: "Doppio One";
+    font-family: "Doppio One", sans-serif;
     font-size: 1rem;
+    font-display: swap;
   }
   
 input[type=submit]:hover {
@@ -267,8 +280,9 @@ input[type=submit]:hover {
   }
 
 label {
-    font-family: "Doppio One";
+    font-family: "Doppio One", sans-serif;
     color: black;
+    font-display: swap;
   }
 
 textarea {
@@ -300,11 +314,12 @@ padding-top: 0px !important;
 /* Address & Telephone Number Paragraph Styling */
 
 .pcontact {
-  font-family: "Doppio One" !important;
+  font-family: "Doppio One", sans-serif !important;
   font-size: 1rem;
   color: black;
   text-align: center !important;
   padding-top: 0px !important;
+  font-display: swap;
   }
 
   /* Media Queries */
