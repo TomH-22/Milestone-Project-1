@@ -86,7 +86,7 @@ A number of issues highlighted were as a result of third-party code, such as the
 ### **Cross-browser Checks and Device Testing**
 I tested the site on a variety of browsers: Edge, Opera, Safari, Firefox and Chrome. All rendered the site as expected. I also tested the site on Chrome and Safari within iOS - this presented no problems. 
 
-I added a media query feature which alters the layout of the page once the `vw` become less than `800px` to a format more suitable for mobile devices. These design changes work well up to a `vw` of `315px` at which point the layout becomes constrained. I could have added more styles as part of a further media query but decided against it as even a small mobile device offers a screen width of at least 320px nowadays. 
+I added a media query feature which alters the layout of the page once the `vw` becomes less than `800px` to a format more suitable for mobile devices and smaller screens. These design changes work well up to a `vw` of `315px` at which point the layout becomes constrained. I could have added more styles as part of a further media query but decided against it as even a small mobile device offers a screen width of at least 320px nowadays. 
 ### **Links**
 All links were checked and worked as expected. All external links opened in a new tab. 
 ### **Contact Form**
@@ -95,19 +95,44 @@ The contact form was checked and worked as expected. The field validation worked
 ## **Technologies and Resources Used**
 
 - **Fontawesome** I used this to display icons on the site.
+
 - **Google Fonts** I used Google Fonts to source and load the fonts used within the page. 
+
 - **Am I Responsive** I used this site to test how the page would render on devices with different screen sizes. I also used it to generate a nice image for the Read Me file.
+
 - **W3C Validation Tools** I used the Mark Up- and CSS Validation tools to test the site's code prior to deployment. 
+
 - **W3 Schools** This website was very useful to me in terms of explaining HTML and CSS related concepts and best practice implementation. 
+
 - **Stack Overflow** This provided a great resource in terms of troubleshooting code and learning to code more effectively.
+
 - **Chrome Developer Tools** This was an invaluable tool during the development process in many ways, from 'Inspecting' elements and associated attributes to pre-deployment testing using the Lighthouse feature. 
+
 - **Procreate** An iPad app I used to create the site's logo.
+
 - **Pexels** A site providing free stock images, which I used within my page.
+
 - **Google Maps API** I used this to diplay a location map on the site. 
+
 - **Convertio** I used this to convert images to a suitable format, `.webp` in this case. 
+
 - **Befunky** I used this site to edit images on the fly: resizing, cropping and colour profile edits.
+
 - **Freepik** I obtained the illustration that makes up part of the main logo from this site. 
 
 ## **Known Bugs and Issues**
+
+- **Arrow Icon Link** The arrow icon link which, when clicked, brings the user back to the top of the page is currently aligned or styled in such a manner that it off-sets the text content of the section header a number of pixels to the left, causing it to be centrally aligned no longer. It does not impair functionality and would probably go unnoticed by most, but I would like to see it fixed. 
+<br>
+
+- **Layout Features with `<br>` Element** I have used a very small number of these elements to adjust spacing within the page which is not a valid use for this element. A fix would involve using either `padding` or `margin` attributes to achieve the desired spacing. 
+
+- **Media Query & Layout Issues** As briefly mentioned above, when using a small screen with a `vw` of less than `315px` the layout becomes problematic. While this is unlikely to occur frequently, I could have added another media query feature to adjust the styling further, based on screen with such a small width.
+
+And lastly, 
+
+- **Page Performance and Images** While I already optimised all of the images in terms of size and file type, I note that the images, while being sized down appropriately as part of the media query feature on smaller screens, are still of a large intrinsic dimension and file size to make them render well on large screens. I could have uploaded images of reduced dimensions and file size to render as part of the media query and thus improved loading times and general performance on smaller screen devices.
+
+## **Attributions**
 
 
