@@ -6,7 +6,7 @@ The site is readily accessible on a variety of devices and behaves in a responsi
 
 It was designed with plain HTML and CSS only: I wanted to avoid using Javascript or even CSS libraries as I felt that a design that was coded from the bottom up would be more useful in terms of the learning experience. I did make use of a small number of technologies such as the Google Maps API, as well as Google Fonts and Fontawesome, which I felt were acceptable enough to use while still keeping the design as 'vanilla' as possible.
 
-The live page can be found here: LINK
+The live page can be found here: [Arán Bakehouse](https://tomh-22.github.io/Milestone-Project-1/)
 
 <br>
 
